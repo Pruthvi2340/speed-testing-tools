@@ -14,3 +14,9 @@ sudo install fast_linux_amd64 /usr/local/bin/fast
 which fast
 fast
 ```
+
+# sudo apt-get install nethogs
+```
+sudo apt-get install nethogs
+nethogs
+```
