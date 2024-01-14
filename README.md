@@ -18,5 +18,6 @@ fast
 # sudo apt-get install nethogs
 ```
 sudo apt-get install nethogs
-nethogs
+nethogs -V
+sudo nethogs
 ```
