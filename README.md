@@ -15,9 +15,17 @@ which fast
 fast
 ```
 
-# sudo apt-get install nethogs
+# nethogs
 ```
 sudo apt-get install nethogs
 nethogs -V
 sudo nethogs
+```
+
+# iperf
+```
+sudo apt-get install iperf3 -y
+iperf3 -s -p 2323                            # Start listen specific port on server
+iperf3 -c 192.168.149.69 -p 2323             # Start client mode with listen port on the server
+iperf3 -c 192.168.149.69 -p 2323 -P 3 -t 30  # set time in seconds to transmit for (default 10 secs) as follows
 ```
